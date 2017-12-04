@@ -1,0 +1,41 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "24"
+    }]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://mail.google.com/"
+  ],
+  "gmail": {
+    "openLinkUrlPrefixes": [
+      "https://wework.base.beta/login/",
+      "https://wework.base.beta/",
+      "https://wework.vn/",
+      "https://api.dev/get.php/",
+      "http:///sonhaanh.com/",
+      "http://api.railwayapi.com/",
+      "http://account.sonhaworktime.com/"
+    ],
+    "name": "Wework",
+    "logoUrl": "https://data.basecdn.net/sys1/02/67/aa/f6/32/1956b8333f1bf7994e5c86deabfa55fb/c046611eb03cfe7409c87e40a8146840_839360_ZYL2RKQEF639N.jpg",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "buildAddOn"
+    }],
+    "primaryColor": "#196899",
+    "secondaryColor": "#4285F4",
+
+    "version": "TRUSTED_TESTER_V2"
+  }
+}
